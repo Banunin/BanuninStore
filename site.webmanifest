@@ -1,0 +1,16 @@
+{
+  "name": "Banunin Store",
+  "short_name": "Banunin",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#F4F5F5",
+  "background_color": "#F4F5F5",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+BANUNIN STORE — PACOTE SEO INICIAL
+
+ARQUIVOS
+- index.html: landing page com metadados SEO, Open Graph/Twitter e dados estruturados Store (JSON-LD).
+- robots.txt: permite rastreamento e aponta para o sitemap.
+- sitemap.xml: sitemap inicial de uma página.
+- favicon.svg: ícone do site.
+- 404.html: página de erro amigável com noindex.
+- _headers: cabeçalhos de segurança e cache para Cloudflare Pages.
+
+ANTES DE PUBLICAR — OBRIGATÓRIO
+1. Escolha/registe seu domínio (ex.: seu domínio .com.br) e conecte-o à hospedagem.
+2. No index.html, troque https://SEU-DOMINIO-AQUI/ no JSON-LD pelo endereço final do site.
+3. No sitemap.xml, troque https://SEU-DOMINIO-AQUI/ pela URL final e valide o XML.
+4. No robots.txt, troque https://SEU-DOMINIO-AQUI/sitemap.xml pelo endereço final do sitemap.
+5. Edite o texto [Sua cidade – UF] no HTML com a região real atendida. Troque também https://g.page/SEU_PERFIL e https://instagram.com/SEU_PERFIL pelos perfis verdadeiros ou remova esses links.
+6. Confirme o telefone de WhatsApp e o perfil da Shopee. O link de orçamento foi uniformizado para o número que aparece nos outros botões, mas confirme que é o número correto.
+7. Não publique endereço, horário, avaliações, preço ou outras informações comerciais que não sejam verdadeiras. Se houver endereço físico público, podemos completar os dados estruturados de negócio local.
+
+PUBLICAÇÃO SUGERIDA: Cloudflare Pages
+- Crie um projeto Pages e envie todos os arquivos desta pasta (ou conecte um repositório Git).
+- Como é HTML estático, não precisa de framework nem etapa de build; use a pasta raiz como diretório de publicação.
+- Associe o domínio próprio no painel do Cloudflare Pages e confirme HTTPS ativo.
+- Confirme que index.html, robots.txt, sitemap.xml, favicon.svg e _headers abrem no domínio final.
+
+PÓS-PUBLICAÇÃO
+- Cadastre o domínio no Google Search Console e verifique a propriedade.
+- Envie https://SEU-DOMINIO-AQUI/sitemap.xml no Search Console após substituir pelo domínio real.
+- Use Inspeção de URL para solicitar indexação da página inicial.
+- Configure Google Analytics 4 ou Cloudflare Web Analytics e mensure cliques em WhatsApp/Shopee.
+- Configure/atualize o Perfil da Empresa no Google apenas se a empresa for elegível; mantenha dados reais e consistentes.
+- Teste a página com PageSpeed Insights, Lighthouse e o teste de resultados avançados do Google.
+
+LIMITES IMPORTANTES
+SEO não garante posição, indexação nem vendas. Metadados e sitemap ajudam mecanismos de busca a entender e descobrir a página; conteúdo útil, reputação, links legítimos, experiência e páginas específicas de produtos/serviços também importam. Uma landing page única tem limite para ranquear em muitas pesquisas diferentes.
+
+NOTA SOBRE CANONICAL E IMAGEM SOCIAL
+Não foi inserida URL canonical nem og:url porque o domínio final ainda não foi informado. Também não foi inventada uma imagem social. Depois de definir o domínio e uma imagem de compartilhamento real, esses campos podem ser completados com URLs absolutas.

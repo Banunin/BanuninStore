@@ -1,0 +1,6 @@
+# Banunin Store — revise o domínio antes de publicar.
+User-agent: *
+Allow: /
+
+# Troque SEU-DOMINIO-AQUI pelo domínio público definitivo.
+Sitemap: https://SEU-DOMINIO-AQUI/sitemap.xml
